@@ -22,6 +22,8 @@ mini_imagenet_wavelet/
 │   └── reorganise_dataset.py      # Standalone script to fix dataset splits
 ├── requirements.txt
 └── README.md
+EE413_Project2_Notebook.ipynb
+README.md                          # Just to make sure it is seen
 ```
 
 ---
@@ -152,7 +154,15 @@ See `requirements.txt`. Key dependencies:
 ---
 
 ## Notes
-
+- Our team used the first method of downloading the dataset. It is also the one that we recommend.
+- The results file is empty sense we used google colab to run all files
 - All models are initialised from **ImageNet pre-trained weights** (transfer learning).
 - Images are resized to **96×96** and normalised with standard ImageNet mean/std.
 - The wavelet compression uses a **2D Haar DWT** with hard thresholding; no quantisation or entropy coding is applied — this is a coefficient-dropping study, not a file-size benchmark.
+
+## AI Assistance Declaration
+
+- AI Assistance: File structure
+- AI Model:  Claude
+- Modification: File structure was made more efficient
+- Verification by Team: Run all files and checked results
