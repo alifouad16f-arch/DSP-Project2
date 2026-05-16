@@ -1,0 +1,24 @@
+# Dataset directories (too large to track)
+mini_imagenet/
+mini_imagenet_fixed/
+mini_imagenet_compressed_*/
+
+# Saved model weights
+models/*.pth
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Results (optional — remove if you want to track them)
+results/*.png
+results/*.csv
+
+# macOS
+.DS_Store
